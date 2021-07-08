@@ -1,4 +1,4 @@
-# Controlling_robot_arm_usin_UltrasonicSensor_and_bluetoothModule    
+# Controlling_Robot_Arm_using_UltrasonicSensor_and_BluetoothModule    
 
 
 
