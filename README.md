@@ -84,6 +84,7 @@ void loop ()
    
    
  
+ ![Circuit](images/Untitled.png)
  ![Circuit](images/Screenshot(250).png)
  
   **C. The simulation design**  
