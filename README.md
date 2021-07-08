@@ -153,17 +153,15 @@ void loop() {
   lcd.print(cm);
   
   if (cm>50)
-  {time=millis();                 //This gives the variavle "time" the first value of millis() when the command was executed. 
-   digitalWrite(6,LOW);}       //millis() Returns the number of milliseconds since Arduino board began running the current program
-  else if (cm<50)
-      {                   //This block of if statements will turn the LED on when there an object near 50 cm for more than 3 seconds
-    if (millis() - time >= 3000)     // If we had HC-05, then its code should be here
-        digitalWrite(6,HIGH);
-        
+  {time=millis();    //This gives the variavle "time" the first value of millis() the moment the command was executed. 
+   digitalWrite(6,LOW);}   
+              //millis() Returns the number of milliseconds since Arduino board began running the current program
+                //This block of if statements will turn the LED on when there an object near 50 cm for more than 3 seconds
+                // If we had HC-05, then its code should be here in this block.
+   else if (cm<50)  {
+   if (millis() - time >= 3000)     
+        digitalWrite(6,HIGH);       
   }
-    
-    
-    
     
   
   delay(1000);
